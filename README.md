@@ -1,6 +1,8 @@
 # yt2m4a
 Get m4a audio from a YouTube video mp4 container.
 
+I created this because many songs are available in Spotify, but not in my country.
+
 Only tested in OSX.
 
 ## Requirements
@@ -8,7 +10,7 @@ Only tested in OSX.
   - node 4.*
 
 ## Installation
-    npm install yt2m4a -g
+    npm install -g git+https://github.com/mallendeo/yt2m4a
 
 ## Usage
     yt2m4a <youtube url>
