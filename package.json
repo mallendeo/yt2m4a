@@ -1,0 +1,30 @@
+{
+  "name": "yt2m4a",
+  "version": "1.0.0",
+  "description": "A command line tool that extracts m4a audio from YouTube videos",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallendeo/youtube-to-m4a.git"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "ytdl": "./bin/yt2m4a.js"
+  },
+  "author": "mallendeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mallendeo/youtube-to-m4a/issues"
+  },
+  "homepage": "https://github.com/mallendeo/youtube-to-m4a#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fluent-ffmpeg": "^2.0.1",
+    "request": "^2.65.0",
+    "tmp": "0.0.28",
+    "ytdl-core": "^0.7.5"
+  }
+}
