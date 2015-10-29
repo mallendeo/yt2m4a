@@ -12,7 +12,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "ytdl": "./bin/yt2m4a.js"
+    "yt2m4a": "./bin/yt2m4a.js"
   },
   "author": "mallendeo",
   "license": "MIT",
