@@ -17,13 +17,14 @@ ytdl.getInfo(url, (err, info) => {
 
   let pickedFormat = null;
   for (let format of info.formats) {
-    let itag = parseInt(format.itag)
-    if ([141, 140].indexOf(itag) > 0) {
+    let itag = parseInt(format.itag);
+    if ([141, 140].indexOf(itag) >= 0) {
       pickedFormat = format;
       if (itag == 141) break;
     }
   }
-  let formatUrl = pickedFormat.url;
+
+  let formatUrl = pickedFormat ? pickedFormat.url : null;
 
   if (!formatUrl) {
     console.log('This video doesn\'t have mp4 audio');
