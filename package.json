@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mallendeo/youtube-to-m4a#readme",
   "dependencies": {
-    "commander": "^2.9.0",
     "fluent-ffmpeg": "^2.0.1",
     "request": "^2.65.0",
     "tmp": "0.0.28",
