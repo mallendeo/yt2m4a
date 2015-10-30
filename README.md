@@ -1,8 +1,6 @@
 # yt2m4a
 Get m4a audio from a YouTube video mp4 container.
 
-I created this because many songs are available in Spotify, but not in my country.
-
 Only tested in OSX.
 
 ## Requirements
